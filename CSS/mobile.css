@@ -1,0 +1,66 @@
+@media screen and (max-width:1200px) {
+    
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    
+    .logo img{
+        padding-right: 25px;
+    }
+    .cright{
+        display:none;
+    }
+    .cleft{
+        font-size: medium;
+    }
+    .home-article-img img{
+        height: 20vh;
+        width: 35vw;
+        border-radius: 15px;
+    }
+    .year-box{
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    .nav-left{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-left ul{
+        padding: 5px 0;
+    }
+    .logo img{
+        width: 30vw;
+    }
+    .cright{
+        display: none;
+    }
+    .home-article-img img{
+        height: 15vh;
+        width: 60vw;
+        border-radius: 15px;
+    }
+    .year-box{
+        display: none;
+    }
+    .home-article{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-input{
+        width: 50vw;
+    }
+    .form-box-input{
+        width: 60vw;
+    }
+    .form-box textarea{
+        width: 60vw;
+    }
+    .blogpost-meta{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,33 @@
+.post-img img{
+    width: 80vw;
+    height: 40vh;
+}
+.post-img{
+    margin-top: 15px;
+    width: 80vw;
+    margin: auto;
+}
+
+.blog-post-content h2{
+    text-align: center;
+}
+.blog-post-content p{
+    padding: 10px 10vw;
+    font-size: 20px;
+}
+.blogpost-meta{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    padding: 10px 10vw;
+}
+.author-info div{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
